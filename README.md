@@ -17,7 +17,7 @@ A Python tool that reads a local code file and uses a local LLM (Ollama) to prov
 1. Install Ollama and pull a model (e.g., `ollama pull llama3`).
 2. Run `pip install -r requirements.txt`.
 3. Run `python explainer.py`.
-
+4. Also saves the the explanation.
 ## Author
 **mmainomad-ship-it**
 [GitHub Profile](https://github.com/mmainomad-ship-it)

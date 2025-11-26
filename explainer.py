@@ -52,3 +52,9 @@ if __name__ == "__main__":
     result = get_explanation()  # Call the function we just wrote
     print("\n--- AI Explanation ---\n")
     print(result)  # Print the AI's response to the terminal
+
+    # Step 7: Save the explanation to a text file
+    output_file = "explanation.txt"
+    with open(output_file, "w") as f:
+        f.write(result)  # Write the AI explanation to the file
+    print(f"\nSaved explanation to: {output_file}")
